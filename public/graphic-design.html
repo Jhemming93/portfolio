@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Graphic Design | Justice Hemming</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header><nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html">Justice Hemming</a>
+      <div><a href="index.html#work">Work</a><a href="graphic-design.html">Graphic Design</a><a href="index.html#contact">Contact</a></div>
+    </nav></header>
+    <main id="main" class="wrap">
+      <section class="hero">
+        <p class="eyebrow">Creative portfolio</p>
+        <h1>Design with purpose.</h1>
+        <p class="lead">Individual graphic design projects and the stories behind them.</p>
+      </section>
+      <section aria-label="Graphic design projects">
+        <div id="design-gallery" class="design-gallery"></div>
+        <p id="gallery-empty">Project artwork will be added soon.</p>
+        <noscript><p>Enable JavaScript to browse project details.</p></noscript>
+      </section>
+      <dialog id="design-dialog" aria-labelledby="design-title">
+        <div class="dialog-inner">
+          <button class="button button-secondary dialog-close" type="button">Close</button>
+          <h2 id="design-title"></h2>
+          <img id="design-image" alt="" />
+          <p id="design-story"></p>
+          <p id="design-tools"></p>
+        </div>
+      </dialog>
+      <script src="js/gallery.js" defer></script>
+    </main>
+    <footer class="wrap">© 2026 Justice Hemming</footer>
+  </body>
+</html>
