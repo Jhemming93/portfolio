@@ -190,3 +190,31 @@ footer {
     scroll-behavior: auto;
   }
 }
+
+.button-secondary {
+  background: #fff;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+.button-secondary:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.project-actions .button {
+  margin: 0;
+  text-align: center;
+  border: 1px solid var(--accent);
+}
+@media (max-width: 480px) {
+  .project-actions { flex-direction: column; }
+  .wrap { width: calc(100% - 28px); }
+  nav div { gap: 12px; }
+  nav a { padding-block: 5px; }
+  h1 { font-size: clamp(2rem, 10vw, 2.8rem); overflow-wrap: anywhere; }
+  .content { padding: 18px; }
+}
