@@ -218,3 +218,7 @@ footer {
   h1 { font-size: clamp(2rem, 10vw, 2.8rem); overflow-wrap: anywhere; }
   .content { padding: 18px; }
 }
+
+.case-image { margin: 20px 0; }
+.case-image img { display: block; width: 100%; max-height: 650px; object-fit: contain; background: #e1ebe6; border: 1px solid var(--line); border-radius: 8px; }
+.case-image figcaption { color: var(--muted); font-size: .9rem; padding-top: 8px; }
